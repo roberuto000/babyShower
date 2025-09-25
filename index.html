@@ -7,97 +7,108 @@
   <style>
     body {
       font-family: 'Comic Sans MS', cursive, sans-serif;
-      background: linear-gradient(to bottom, #bbdefb, #e3f2fd);
+      background: linear-gradient(to bottom, #f0f4c3, #e8f5e9);
       color: #333;
       margin: 0;
       padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
     }
     .container {
-      max-width: 750px;
+      max-width: 600px;
       margin: 40px auto;
       background: #fff;
       border-radius: 25px;
-      padding: 40px 30px;
-      box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+      padding: 30px 25px;
+      box-shadow: 0px 8px 20px rgba(0,0,0,0.12);
       text-align: center;
-      border: 5px solid #64b5f6;
+      border: 5px solid #c5e1a5;
       position: relative;
     }
+    img.cat-image {
+      width: 70%;
+      max-width: 300px;
+      height: auto;
+      margin: 15px 0;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
     h1 {
-      color: #1976d2;
-      font-size: 3em;
+      color: #7cb342;
+      font-size: 2.6em;
       margin-bottom: 10px;
     }
     h2 {
-      color: #444;
-      margin-bottom: 25px;
-      font-size: 1.6em;
+      color: #558b2f;
+      margin-bottom: 20px;
+      font-size: 1.5em;
     }
     .welcome {
-      font-size: 1.2em;
-      margin: 20px auto;
+      font-size: 1.1em;
+      margin: 15px auto;
       padding: 15px;
-      background: #e3f2fd;
+      background: #f1f8e9;
       border-radius: 15px;
-      color: #1976d2;
+      color: #33691e;
       line-height: 1.5em;
     }
     .details {
-      font-size: 1.2em;
-      margin: 12px 0;
+      font-size: 1.1em;
+      margin: 10px 0;
     }
     .highlight {
-      color: #1976d2;
+      color: #2e7d32;
       font-weight: bold;
     }
-    .parking {
-      margin-top: 30px;
-      padding: 20px;
-      border-top: 2px dashed #ddd;
-      font-size: 1.1em;
-      text-align: left;
+    .links a {
+      display: inline-block;
+      margin: 6px 8px;
+      padding: 8px 15px;
+      text-decoration: none;
+      border-radius: 12px;
+      background: #dcedc8;
+      color: #33691e;
+      font-weight: bold;
+      transition: background 0.3s;
     }
-    .parking h3 {
-      color: #1976d2;
-      margin-bottom: 10px;
-    }
-    .cat {
-      width: 120px;
-      position: absolute;
-      top: -70px;
-      left: calc(50% - 60px);
+    .links a:hover {
+      background: #aed581;
     }
     .paws {
-      margin-top: 30px;
-      font-size: 2em;
-      color: #90caf9;
+      margin-top: 25px;
+      font-size: 1.8em;
+      color: #c5e1a5;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <!-- Gatito decorativo -->
-    <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Gatito" class="cat">
-
     <h1>¡Baby Shower!</h1>
     <h2>Con mucho cariño, <span class="highlight">Sandy & Beto</span></h2>
+    <img src="https://roberuto000.github.io/babyShower/imagen.png" alt="Seis gatitos saiyajin" class="cat-image">
 
     <div class="welcome">
-      🐱💙 ¡Bienvenidos a esta dulce celebración!  
-      Acompáñanos a darle la bienvenida al nuevo integrante de nuestra familia,  
-      con mucho amor, alegría y la ternura de muchos gatitos. 💙🐾
+      🐱💚 ¡Bienvenidos a esta dulce celebración!<br>
+      Acompáñanos a darle la bienvenida al nuevo saiyajin de nuestra familia,<br>
+      con mucho amor, alegría y ternura. 🍼🐾
     </div>
 
-    <p class="details"><span class="highlight">Día:</span> Sábado 18 de Octubre</p>
-    <p class="details"><span class="highlight">Hora:</span> 1:00 pm</p>
-    <p class="details"><span class="highlight">Lugar:</span> Calzada Azcapotzalco La Villa 270</p>
+    <p class="details"><span class="highlight">📅 Día:</span> Sábado 18 de Octubre</p>
+    <p class="details"><span class="highlight">🕐 Hora:</span> 1:00 pm</p>
+    <p class="details"><span class="highlight">📍 Lugar:</span> Calzada Azcapotzalco La Villa 270</p>
 
-    <div class="parking">
-      <h3>Opciones de estacionamiento:</h3>
-      <ul>
-        <li><strong>Lugar 1:</strong> Plaza Comercial Pasaje Ferreria</li>
-        <li><strong>Lugar 2:</strong> Calzada Azcapotzalco La Villa 304</li>
-      </ul>
+    <p class="details"><span class="highlight">🎁 Mesa de regalos</span></p>
+    <div class="links">
+      <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51737048"target="_blank">Liverpool</a>
+      <a href="https://www.amazon.com.mx/baby-reg/sandyybeto-bebe-diciembre-2025-ciudaddemexico/1A1J2S6PTLJHF?ref_=cm_sw_r_mwn_dp_Q638FTPVTBRYE2M9M72S&language=en-US" target="_blank">Amazon</a>
+    </div>
+
+    <p class="details"><span class="highlight">🚗 Estacionamientos</span></p>
+    <div class="links">
+      <a href ="https://maps.app.goo.gl/YceJfKGJYt2KrntHA" target="_blank">Opción 1</a>
+      <a href="https://maps.app.goo.gl/vZENYg22c3UQXWrM9" target="_blank">Opción 2</a>
     </div>
 
     <div class="paws">🐾 🐾 🐾</div>
